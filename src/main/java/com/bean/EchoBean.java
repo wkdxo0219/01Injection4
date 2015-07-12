@@ -14,6 +14,7 @@ public class EchoBean {
 
 	public void setNum(int num) {
 		System.out.println("setNum 메소드");
+		System.out.println("test");
 		this.num = num;
 	}
 

@@ -13,7 +13,6 @@ public class EchoBeanTest {
 
 		EchoBean bean = (EchoBean)ctx.getBean("echo",EchoBean.class);
 		System.out.println(bean.getName() + "\t" + bean.getNum());
-		System.out.println("test");
 	}
 
 }
